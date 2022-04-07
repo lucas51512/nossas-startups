@@ -8,79 +8,216 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css"/>
     
     <title>Fomenta Vale</title>
 </head>
 <body>
 
-    <!-- HEADER -->
-    <div id="header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                      <img src="images/branco e verde 1.svg" class="img-fluid">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Programas
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <li><a class="dropdown-item" href="#">Pré Incubação</a></li>
-                              <li><a class="dropdown-item" href="#">Incubação</a></li>
-                            </ul>
-                          </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Coworking</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">DEVCOM</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Sobre
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a class="dropdown-item" href="#">Nossas Startups</a></li>
-                          <li><a class="dropdown-item" href="#">Mídia e eventos</a></li>
-                          <li><a class="dropdown-item" href="#">Mentores</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Faça parte</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </div>
-    </div>
-
     <!--COWORKING-->
-    <div id="coworking">
+    <section id="coworking">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div id="coluna1" class="col-md-6">
                     <img src="images/coworking.png">
                 </div>
-                <div class="col-md-6">
-                    <div class="card">
+                <div id="coluna2" class="col-md-6">
+                    <div class="card d-flex">
                         <div class="card-title">
-                            <h4>Conheça o nosso</h4><h2>COWORKING</h2>
-                        </div>
-                        <p>Reserve o seu lugar para trabalhar em um ambiente de inovação e tecnologia</p>
-                        <button type="button" class="btn btn-lg"><p>Saiba Mais</p></button>
+                            <h2>Conheça o nosso</h2>
+                            <h1 class="display-5">COWORKING</h1>
+                        </div><br>
+                        <h5>Reserve o seu lugar para trabalhar em um ambiente de inovação e tecnologia</h5>
+                        <button type="button">SAIBA MAIS</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!--INTRODUÇÃO-->
+
+    <section id="introducao">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="texto-intro">
+                        <h1 class="display-5">O QUE É A FOMENTA VALE ?</h1>
+                        <h4>
+                            Fomenta Vale é uma associação civil, sem fins lucrativos,
+                            com o propósito de fomentar o desenvolvimento regional,
+                            transformando ideias em projetos e negócios com a integração de tecnologia,
+                            educação e empresas na região do Vale Paranapanema.
+                        </h4>
+                    </div>
+                    <div>
+                        <img src="./images/Group 7.png" alt=""><br><br><br>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="545" height="310" src="https://www.youtube.com/embed/HROHU5tDCQ4" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--REVISTA-->
+
+    <section id="revista">
+        <div class="container">
+            <div class="row">
+                <div id="coluna1" class="col-md-6">
+                    <h1 class="display-6">CONFIRA A ÚLTIMA EDIÇÃO DA NOSSA REVISTA</h1>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div id="coluna2" class="col-md-5">
+                            <button type="button">BAIXAR PDF</button>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="borda"></div>
+                            <img src="./images/2667763.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FAÇA PARTE-->
+
+    <section id="facaparte">
+        <div class="container">
+            <div class="row">
+                <div id="coluna1" class="col-md-6 d-flex justify-content-center">
+                    <div id="form" class="card d-flex">
+                        <div class="card-title">
+                            FAÇA PARTE
+                        </div>
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Nome completo</label>
+                          <input type="text" class="form-control" id="nome">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Celular</label>
+                            <input type="text" class="form-control" id="password">
+                          </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Aceito receber notificações da Fomenta Vale em meu whatsapp e via email</label>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit">ENVIAR</button>
+                        </div>
+                      </form>
+                    </div>
+                </div>
+                <div id="coluna2" class="col-md-6">
+                    <img src="./images/contact-us.png">
+                    <h3 class="text">RECEBA NOVIDADES</h3> <h3>SOBRE A FOMENTA E A ÁREA DE TECNOLOGIA NA REGIÃO
+                    DIRETAMENTE DO SEU CELULAR </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--LOCALIZAÇÃO-->
+
+    <section id="localizacao">
+        <div class="container">
+            <div class="row">
+                <div id="title" class="card d-flex">
+                    <h3 class="title">VENHA CONHECER O</h3>
+                    <h1 class="subtitle">NOSSO ESPAÇO</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./images/galeria.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/galeria2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/galeria3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div id="coluna2" class="col-md-6">
+                    <div class="row">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14726.58661673757!2d-50.42049085!
+                        3d-22.66695925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1ff78ff8f343dbf!2sFomenta%
+                        20Vale!5e0!3m2!1spt-BR!2sbr!4v1649335896840!5m2!1spt-BR!2sbr" width="400" height="372" 
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <div id="card-map" class="card d-flex">
+                            <h6>Av. Nove de Julho, 106 - Centro, Assis - SP, 19800-020</h6>
+                            <h6>Abre às 9:00h / Fecha às 17:00h</h6>
+                            <h6>(018) 997888794</h6>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FEEDBACK-->
+
+    <section id="feedback">
+        <div class="container">
+            <div class="row">
+                <div id="coluna1" class="col-md-6">
+                    <div id="form" class="card d-flex">
+                        <div class="card-title">
+                            <h3>Dê o seu</h3>
+                            <h1>FEEDBACK!</h1>
+                        </div>
+                            <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Nome</label>
+                              <input type="text" class="form-control" id="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
+                                <textarea class="form-control" id="descricao" rows="3"></textarea>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button type="submit">ENVIAR</button>
+                            </div>
+                            </form>
+                    </div>
+                </div>
+                <div id="coluna2" class="col-md-6">
+                    <img src="./images/feedback.png">
+                </div>
+            </div>
+        </div>
+    </section>
     
 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

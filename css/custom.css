@@ -4,50 +4,247 @@ body, html{
     color: #fff;
 }
 
-#header{
-    width: 100%;
-    background-color: transparent;
-    transition: background ease-out 0.2s
-}
-
-#header .navbar-collapse {
-    width: auto;
-}
-
-#header .nav-link {
-    text-transform: uppercase;
-    font-weight: 500;
-    padding: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
-    color: #fff;
-}
-
-#header .nav-link:hover {
-    background-color: var(--secondary);
-    padding: 10px;
-}
-
-#header img{
-    width: 150px;
+#coworking{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #coworking .card{
-    width: 508px;
+    width: 440px;
     height: 446.82px;
     background-color: #01433D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 55px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+
+#coworking #coluna1, #coworking #coluna2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #coworking button{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
     width: 160px;
     height: 34px;
     background: #F6921E;
     border: 2px solid #E9E9E9;
     box-sizing: border-box;
     border-radius: 20px;
-    align-items: center;
-    text-align: center;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
 
+#coworking button:hover {
+    background-color: #fff;
+    color: #F6921E
+}
+
+#revista {
+    background-color: #F6921E;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+#revista img {
+    position: absolute;
+    width: 200px;
+}
+
+#revista #coluna1{
+    padding: 30px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#revista .borda {
+    position: absolute;
+    top: 990px;
+    left: 912px;
+    width: 180px;
+    height: 250px;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+#revista button{
+    margin-top: 100px;
+    width: 160px;
+    height: 34px;
+    background: #fff;
+    border: 2px solid #E9E9E9;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #F6921E;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
+    transition: 0.2s ease-in-out;
+
+}
+
+#revista button:hover{
+    background-color: #F6921E;
+    color: #fff
+}
+
+#coworking h1{
+    color: #F6921E;
+    letter-spacing: 0.035em;
+}
+
+#introducao {
+    padding-top: 50px;
+    background: url(../images/background1.jpg);
+}
+
+#introducao img{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+#introducao iframe{
+    margin-top: 30px;
+    border: 3px solid #FFF;
+}
+
+#facaparte{
+    background: url(../images/background1.jpg);
+}
+
+#facaparte #coluna1, #facaparte #coluna2{
+    align-items: center;
+    justify-content: center;
+}
+
+#facaparte #coluna1{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    padding: 40px;
+}
+
+#facaparte #form{
+    background-color: #F8F8F8;
+    border: none;
+    width: 400px;
+    height: 506px;
+}
+
+#facaparte #form button, #feedback button{
+    margin-top: 30px;
+    height: 32px;
+    background: #F6921E;
+    border: none;
+    color: #FFF;
+}
+
+#facaparte .card-title{
+    background-color: #03504E;
+    font-size: 25px;
+    padding: 15px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+#facaparte form{
+    margin: 20px
+}
+
+#facaparte #coluna2{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.1em;
+    padding: 20px;
+}
+
+#facaparte img{
+    margin-top: 35px;
+    margin-left: 80px;
+    margin-bottom: -25px;
+    width: 380px;
+}
+
+#facaparte .text{
+    color: #F6921E;
+}
+
+#localizacao{
+    background-color: #fff;
+    padding: 20px;
+}
+
+#localizacao #title{
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    padding: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#localizacao #title .title{
+    color: #000;
+    font-size: 25px;
+}
+
+#localizacao #title .subtitle{
+    color: #003B36;
+    font-size: 40px;
+}
+
+#localizacao #coluna1, #localizacao #coluna2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#localizacao #coluna2 .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-map{
+    background-color: #FFF;
+    width: 547.5px;
+    border-radius: 0;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #616161;
+}
+
+#feedback {
+    background: url(../images/background1.jpg);
+    padding: 25px;
+}
+
+#feedback #coluna1, #feedback #coluna2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#feedback #form{
+    background-color: transparent;
+    border: none;
+    width: 450px;
+}
+
+#feedback #form input, #descricao{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    color: #fff;
+}
+
+#feedback img{
+    width: 450px;
+}
+
+#feedback h1{
+    color: #F6921E;
 }
