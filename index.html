@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css"/>
     
     <title>Fomenta Vale</title>
@@ -155,7 +155,7 @@
         <div class="container">
             <div class="row">
                 <div id="coluna1" class="col-md-6">
-                    <h2>CONFIRA A ÚLTIMA EDIÇÃO DA NOSSA REVISTA</h2>
+                    <h4>CONFIRA A ÚLTIMA EDIÇÃO DA NOSSA REVISTA</h4>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -184,15 +184,15 @@
                     <form>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Nome completo</label>
-                          <input type="text" class="form-control" id="nome">
+                          <input type="text" class="input" id="nome">
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputPassword1" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                          <input type="email" class="input" id="email" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Celular</label>
-                            <input type="text" class="form-control" id="password">
+                            <input type="text" class="input" id="password">
                           </div>
                         <div class="mb-3 form-check">
                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -218,19 +218,15 @@
     <section id="localizacao">
         <div class="container">
             <div class="row">
-                <div id="title" class="card d-flex">
-                    <h3 class="title">VENHA CONHECER O</h3>
-                    <h1 class="subtitle">NOSSO ESPAÇO</h1>
-                </div>
+                
             </div>
             <div class="row">
                 <div id="coluna1" class="col-md-6">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
+                    <div id="title" class="card d-flex">
+                        <h3 class="title">VENHA CONHECER O</h3>
+                        <h1 class="subtitle">NOSSO ESPAÇO</h1>
+                    </div>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="./images/galeria.jpg" class="d-block w-100" alt="...">
@@ -242,15 +238,15 @@
                             <img src="./images/galeria3.jpg" class="d-block w-100" alt="...">
                           </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Next</span>
                         </button>
-                    </div>         
+                      </div>         
                 </div>
                 <div id="coluna2" class="col-md-6"> 
                     <div id="infos" class="card d-flex">
@@ -259,9 +255,15 @@
                         20Vale!5e0!3m2!1spt-BR!2sbr!4v1649335896840!5m2!1spt-BR!2sbr" width="400" height="372" 
                         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                         </iframe> 
-                            <img src="./images/telefone.png"/><h6>Av. Nove de Julho, 106 - Centro, Assis - SP, 19800-020</h6>
-                            <img src="./images/clock.png"/><h6>Abre às 9:00h ⋅ Fecha às 17:00h</h6>
-                            <h6>(18) 99788-8794</h6>
+                        <div class="row">
+                            <h6><img src="./images/pin.png"/>Av. Nove de Julho, 106 - Centro, Assis - SP, 19800-020</h6>
+                        </div>
+                        <div class="row">
+                            <h6><img src="./images/clock.png"/>Abre às 9:00h ⋅ Fecha às 17:00h</h6>
+                        </div>
+                        <div class="row">
+                            <h6><img src="./images/telefone.png"/>(18) 99788-8794</h6>
+                        </div>
                         </div>
                 </div>
             </div>
@@ -282,11 +284,11 @@
                             <form>
                             <div class="mb-3">
                               <label for="exampleInputEmail1" class="form-label">Nome</label>
-                              <input type="text" class="form-control" id="nome">
+                              <input type="text" class="input2" id="nome">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
-                                <textarea class="form-control" id="descricao" rows="3"></textarea>
+                                <textarea class="input2" id="descricao" rows="3"></textarea>
                             </div>
                             <div class="d-grid gap-2">
                                 <button type="submit">ENVIAR</button>
