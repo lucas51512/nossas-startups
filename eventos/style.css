@@ -1,0 +1,38 @@
+body, html{
+    background: #002F2E;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+#geladatech{
+    padding: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#geladatech img{
+    width: 350px;
+    display: block;
+    margin: 0px auto;
+}
+
+#geladatech h3{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#geladatech button{
+    width: 170px;
+    display: block;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #F5911E;
+    color: #fff;
+}
