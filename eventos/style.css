@@ -1,10 +1,108 @@
 body, html{
-    background: #002F2E;
+    background: #f4f4f4;
     font-family: 'Lato', sans-serif;
     color: #fff;
 }
 
+.navbar-toggler {
+	border: none;
+}
+.navbar-toggler:focus {
+	outline: 0;
+}
+
+#f-navbar{
+    display: flex;
+    justify-content: end;
+}
+
+#f-navbar .nav-link {
+	font-size: 16px;
+	color: #fbfcfd;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+div.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar {
+	height: 80px;
+    padding-top: 20px;
+    transition: all 0.30s linear;
+    background-color: #002F2E;
+}
+.navbar.scroll {
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    height: 80px;
+		background: white;	
+}
+.navbar.scroll #f-navbar a {
+	color: rgb(97, 97, 97);
+	font-weight: 500;
+
+}
+.navbar.scroll #f-navbar .nav-link.faca-parte {
+	color: #f6921e;
+
+}
+
+#f-navbar li{
+    margin-right: 20px;
+}
+
+.avatar {
+	background-image: url(../images/logo1.png);
+	padding-top: 90px;
+	background-size: contain;
+	transition: all 0.20s linear;
+	background-repeat: no-repeat;
+	width: 18%;
+	height: 0;
+
+}
+.navbar.scroll .avatar {
+	background-image: url(../images/logo1.png);
+	width: 170px;
+	padding-top:70px;
+	width: 20%;
+	transition: all 0.20s linear;
+}
+div#f-navbar.nav-item {
+	margin-top: 18px;
+	margin-right: 8px;
+}
+#f-navbar .nav-item:hover .nav-link {
+	color: #d6621e;
+	transition: .5s;
+}
+#f-navbar .nav-item:after {
+	content: '';
+	border-bottom: 2px solid #39857c;
+	display: block;
+	transition: .3s ease;
+	transform: scaleX(0);
+}
+#f-navbar .nav-item:hover:after {
+    transform: scaleX(1);
+}
+#f-navbar .nav-link.faca-parte {
+	color: #f6921e;
+	font-weight: 600;
+}
+#f-navbar .nav-item:hover .nav-link.faca-parte {
+	color: #d6621e;
+}
+
 #geladatech{
+    margin-top: 40px;
+    background-image: url(../images/backgroundGelada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -18,7 +116,7 @@ body, html{
 
 #geladatech h3{
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
     display: block;
@@ -27,12 +125,195 @@ body, html{
 }
 
 #geladatech button{
+    font-family: 'Roboto', sans-serif;
     width: 170px;
     display: block;
     border-radius: 5px;
+    border: 2px solid #F5911E;
     margin: 0px auto;
-    padding: 5px;
+    padding: 3px;
     font-size: 20px;
     background-color: #F5911E;
     color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+#geladatech button:hover{
+    background-color: #fff;
+    color: #F5911E;
+    border: 2px solid #F5911E;
+}
+
+#eventos {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#eventos h1 {
+    font-weight: 900;
+    display: block;
+    margin: 0px auto;
+    color: #002F2E;
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #686868;
+    text-align: center;
+}
+
+#eventos h4{
+    font-weight: 300;
+}
+
+#slides{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#slides img, #slides iframe{
+    width: 100%;
+}
+
+#eventos #coluna1{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#eventos #coluna2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#slides .infos{
+    background-image: url(../images/background11.jpg);
+    padding: 40px;
+    padding-right: 170px;
+}
+
+#hackatons {
+    background-color: #fff;
+}
+
+#hackatons .sobre{
+    background-image: url(../images/backhackatons.jpg);
+    padding: 15px;
+}
+
+#hackatons #coluna1 img{
+    width: 460px;
+    display: block;
+    margin: 0px auto;
+}
+
+#hackatons h1{
+    font-weight: 900;
+    display: block;
+    margin: 0px auto;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom:30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ffffff;
+    text-align: center;
+}
+
+#hackatons h3{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 33px;
+}
+
+#hackatons .button{
+    margin-top: 65px;
+}
+
+#hackatons .button1, #hackatons .button2{
+    background-color: #F5911E;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 3px;
+    width: 150px;
+    border: 2px solid #F5911E;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+#hackatons .button2{
+    background-color: #00A89C;
+    border: 2px solid #00A89C;
+}
+
+#hackatons .button1:hover{
+    background-color: #fff;
+    color: #F5911E;
+    border: 2px solid #F5911E;
+}
+
+#hackatons .button2:hover{
+    background-color: #fff;
+    color: #00A89C;
+    border: 2px solid #00A89C;
+}
+
+#hackatons #infos1, #hackatons #infos2{
+    background-color: #f4f4f4;
+    color: rgb(43, 43, 43);
+    max-width: 500px;
+    margin: 10px;
+    padding: 20px;
+    transition: all ease-out 0.2s;
+}
+
+#hackatons #infos1:hover, #hackatons #infos2:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+    transform: scale(1.05);
+    background-color: #00A89C;
+    color: #fff;
+}
+
+#hackatons #infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#hackatons #infos1{
+    margin-right: 30px;
+}
+
+#hackatons #infos1{
+    margin-left: 30px;
+}
+
+#hackatons #infos1 img, #infos2 img{
+    width: 100px;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+#infos1 #title, #infos2 #title{
+    display: flex;
+    align-items: flex-end;
+}
+
+#infos h2{
+    font-weight: 700;
+}
+
+#infos h5{
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }

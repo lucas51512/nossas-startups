@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/global.css" />
@@ -19,12 +19,161 @@
 </head>
 <body>
 
+        <!-- NAVBAR -->
+
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+            <div class="container">
+                <div class="avatar">
+                    <a class="navbar-brand" href="http://www.fomentavale.com.br"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#f-navbar"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="f-navbar">
+                    <ul class="navbar-nav ml-auto justify-content-md-end">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProgramas" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Programas
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Pré-Incubação</a>
+                                <a class="dropdown-item" href="#">Incubação</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" title="Coworking">Coworking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../eventos/eventos.html" title="Eventos">Eventos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSobre" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sobre
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#somos" title="Quem Somos">Quem Somos</a>
+                                <a class="dropdown-item" href="#fazemos" title="O que Fazemos">O que fazemos</a>
+                                <a class="dropdown-item" href="#idealizadores" title="Idealizadores">Idealizadores</a>
+                                <a class="dropdown-item" href="#apoiadores" title="Apoiadores">Apoiadores</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link faca-parte" href="#faca-parte" title="Faça Parte">Faça Parte</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
     <section id="geladatech">
-                <img src="../images/logogelada.png"/>    
-                <h3>A Gelada Tech é um evento para reunir toda a comunidade de tecnologia da região para podermos 
-                    compartilhar novas idéias e aprender um pouco mais com profissionais especializados na área
-                </h3>
-                <button>Inscreva-se</button>
+        <div class="container">
+            <img src="../images/logogelada.png"/>    
+            <h3>
+                A Gelada Tech é um evento para reunir toda a comunidade de tecnologia da região para podermos 
+                compartilhar novas idéias e aprender um pouco mais com profissionais especializados na área
+            </h3>
+            <button>Inscreva-se</button>
+        </div>
+    </section>
+
+    <section id="eventos">
+        <div class="container">
+            <h1>Eventos Realizados</h1>
+            <div class="row" id="slides">
+                <div id="coluna1" class="col-md-6">
+                    <img src="../images/image7.jpg">
+                </div>
+                <div id="coluna2" class="col-md-6">
+                    <div class="infos">
+                        <h2>1 Gelada Tech</h2>
+                        <h4>
+                            Bora trocar umas ideias sobre UX/UI e  sobre o que podemos aprender na carreira de TI, 
+                            o papo dessa edição tá mais do que interessante.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="slides">
+                <div id="coluna2" class="col-md-6">
+                    <div class="infos">
+                        <h2>Live 12/03 3 Gelada Tech</h2>
+                        <h4>
+                            Bora trocar umas ideias sobre UX/UI e  sobre o que podemos aprender na carreira de TI, 
+                            o papo dessa edição tá mais do que interessante.
+                        </h4>
+                    </div>
+                </div>
+                <div id="coluna1" class="col-md-6">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ffomentavale%2
+                        Fvideos%2F514987213561900%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" 
+                        scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; 
+                        picture-in-picture; web-share" allowFullScreen="true">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hackatons">
+        <div class="sobre">
+            <div class="container">
+                <h1>HACKATONS</h1>
+                <div class="row">
+                    <div id="coluna1" class="col-md-6">
+                        <img src="../images/imagempng2.png"/>
+                    </div>
+                    <div id="coluna2" class="col-md-6">
+                        <h3>
+                            São maratonas de programação que ocorreem em várias épocas do ano em diversos países. 
+                            Em geral, essas maratonas são promovidas por grandes instituições e startups, como Nasa, Sebrae, Globo e Uber, 
+                            e têm como objetivo desenvolver inovações tecnológicas.
+                        </h3>
+                        <div class="button">
+                            <button class="button1">Inscreva-se</button>
+                            <button class="button2">Confira o edital</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="infos" class="row">
+                <div id="infos1" class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="../images/custom-features.png"/>
+                        </div>
+                        <div id="title" class="col-md-3">
+                            <h2>OBJETIVOS</h2>
+                        </div>
+                    </div>
+                    
+                    <h5>São maratonas de programação que ocorreem em várias épocas do ano em diversos países. 
+                        Em geral, essas maratonas são promovidas por grandes instituições e startups, como Nasa, 
+                        Sebrae, Globo e Uber, e têm como objetivo desenvolver inovações tecnológicas.
+                    </h5>
+                </div>
+                <div id="infos2" class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="../images/custom-features.png"/>
+                            </div>
+                            <div id="title" class="col-md-3">
+                                <h2>OBJETIVOS</h2>
+                            </div>
+                        </div>
+                        
+                        <h5>São maratonas de programação que ocorreem em várias épocas do ano em diversos países. 
+                            Em geral, essas maratonas são promovidas por grandes instituições e startups, como Nasa, 
+                            Sebrae, Globo e Uber, e têm como objetivo desenvolver inovações tecnológicas.
+                        </h5>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer id="footer">
