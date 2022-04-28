@@ -98,14 +98,18 @@ div#f-navbar.nav-item {
 }
 
 #geladatech{
-    margin-top: 40px;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+#geladatech .container{
     background-image: url(../images/backgroundGelada.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 30px;
 }
 
 #geladatech img{
@@ -163,7 +167,7 @@ div#f-navbar.nav-item {
     text-align: center;
 }
 
-#eventos h4{
+#eventos h4, #hackatonfomenta h4{
     font-weight: 300;
 }
 
@@ -176,12 +180,12 @@ div#f-navbar.nav-item {
     width: 100%;
 }
 
-#eventos #coluna1{
+#eventos #coluna1, #hackatonfomenta #coluna1{
     padding-left: 0;
     padding-right: 0;
 }
 
-#eventos #coluna2{
+#eventos #coluna2, #hackatonfomenta #coluna2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,10 +193,20 @@ div#f-navbar.nav-item {
     padding-right: 0;
 }
 
-#slides .infos{
+#eventos #slides .infos{
     background-image: url(../images/background11.jpg);
     padding: 40px;
     padding-right: 170px;
+}
+
+#hackatonfomenta #slides .infos{
+    background-color: #00A89C;
+    padding: 40px;
+    padding-right: 100px;
+}
+
+#hackatonfomenta img{
+    height: 320px;
 }
 
 #hackatons {
@@ -226,7 +240,7 @@ div#f-navbar.nav-item {
 
 #hackatons h3{
     margin-top: 10px;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 33px;
 }
 
@@ -269,7 +283,7 @@ div#f-navbar.nav-item {
     max-width: 500px;
     margin: 10px;
     padding: 20px;
-    transition: all ease-out 0.2s;
+    transition: all ease-out 0.3s;
 }
 
 #hackatons #infos1:hover, #hackatons #infos2:hover{
@@ -295,6 +309,11 @@ div#f-navbar.nav-item {
     margin-left: 30px;
 }
 
+#hackatons #infos2{
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
 #hackatons #infos1 img, #infos2 img{
     width: 100px;
     display: flex;
@@ -316,4 +335,165 @@ div#f-navbar.nav-item {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#cafe #coluna1{
+    background-color: #fff;
+    display: block;
+    margin: 0px auto;
+    padding: 0;
+}
+
+#cafe {
+    background-color: #141414;
+}
+
+#cafe img{
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#cafe #coluna2{
+    background-color: #fff;
+    display: block;
+    margin: 0px auto;
+    padding: 0;
+    background-image: url(../images/coffee-beans.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cafe #image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cafe .info{
+    background-color: #F19120;
+    color: #fff;
+    padding: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#cafe h4{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+#fomentacast{
+    background-color: #141414;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#fomentacast img{
+    width: 200px;
+}
+
+#fomentacast #coluna1{
+    background-color: #262626;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+#fomentacast #coluna2{
+    align-items: flex-end;
+    padding-top: 70px;
+    margin-right: 20px;
+}
+
+#fomentacast #coluna2 h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#fomentacast #coluna2 h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#fomentacast #coluna3{
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+#fomentacast #coluna3 h1{
+    margin-top: 30px;
+    margin-bottom: 32px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#fomentacast #coluna3 h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#fomentacast #buttons {
+    display: flex;
+    margin-top: 40px;
+}
+
+#fomentacast .button1{
+    background-color: #F5911E;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 4px;
+    width: 180px;
+    border: 2px solid #F5911E;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    box-shadow: inset 0 0 8px #F5911E, 0 0 8px #F5911E;
+    transition: 0.2s ease-in-out;
+}
+
+#fomentacast .button1 img{
+    width: 30px;
+    margin-right: 8px;
+}
+
+#fomentacast .button2 img{
+    width: 25px;
+    margin-right: 8px;
+}
+
+#fomentacast .button2{
+    background-color: #00A89C;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 4px;
+    width: 180px;
+    border: 2px solid #00A89C;
+    border-radius: 15px;
+    margin-left: 15px;
+    box-shadow: inset 0 0 8px #00A89C, 0 0 8px #00A89C;
+    transition: 0.2s ease-in-out;
+}
+
+#fomentacast .button1:hover{
+    background-color: rgb(255, 163, 57);
+    transform: scale(1.03);
+    box-shadow: inset 0 0 15px #F5911E, 0 0 15px #F5911E;
+}
+
+#fomentacast .button2:hover{
+    background-color: #00b8ab;
+    transform: scale(1.03);
+    box-shadow: inset 0 0 15px #00A89C, 0 0 15px #00A89C;
+}
+
+#episodio{
+    margin-top: 30px;
 }
